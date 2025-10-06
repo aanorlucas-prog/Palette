@@ -32,23 +32,41 @@ Elle regroupe plusieurs pages interactives — visionneuse de photos, tableau de
 ```bash
 git clone git@github.com:aanorlucas-prog/Palette.git
 cd Palette
+```
 
 ### 2. Installer les dépendances
 
+```bash
 npm install
-
+```
 
 ### 3. Lancer le serveur de développement
 
+```bash
 ng serve
+```
 
 Une fois le serveur lancé, ouvrez votre navigateur et accédez à l’adresse :
 
+```bash
 http://localhost:4200/
+```
 
 L’application se rechargera automatiquement à chaque modification des fichiers sources.
 
+## Commandes utiles
 
+Générer un composant Angular :
+
+```bash
+ng generate component nom-du-composant
+```
+
+Compiler le projet pour la production :
+
+```bash
+ng build
+```
 
 🎯 Objectifs du projet
 
@@ -58,5 +76,4 @@ Démontrer mes compétences en Angular et TypeScript
 
 Illustrer ma capacité à créer une application web multi-pages complète et interactive
 
-Mettre en avant mes bonnes pratiques en matière de structuration, réutilisabilité et lisibilité du code
-```
+Mettre en avant mes bonnes pratiques en matière de structuration, réutilisabilité et lisibilité du code.
