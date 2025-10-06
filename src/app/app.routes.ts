@@ -6,9 +6,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { DataComponent } from './data/data.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent},
-    { path: 'photos-component', component: PhotosComponent},
-    { path: 'buyPage-component', component: BuyPageComponent},
-    { path: 'data-component', component: DataComponent},
+    { path: '', component: HomeComponent },
+    { path: 'photos', component: PhotosComponent },
+    { path: 'buyPage', component: BuyPageComponent },
+    { path: 'data', component: DataComponent },
     { path: '**', component: PageNotFoundComponent },
 ];
