@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.ag-theme-alpine .ag-header-cell.custom-header {
+  background-color: #0d47a1 !important;
+}
+
+.ag-theme-alpine .ag-header-cell.custom-header .ag-header-cell-label {
+  color: white !important;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}

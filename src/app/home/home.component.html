@@ -1,0 +1,39 @@
+<main class="w-full min-h-screen flex items-center justify-center p-4">
+  <section class="hero w-full max-w-6xl p-8 md:p-12">
+    <div class="bg-blur"></div>
+
+    <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      <div class="space-y-3">
+        <h1 class="text-5xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-violet-400 to-rose-400 tracking-tight">Palette</h1>
+        <p class="text-base md:text-lg text-slate-600 max-w-prose">
+          Découvrez une expérience colorée et moderne. Naviguez entre vos photos, achats et données en toute fluidité.
+        </p>
+        <div class="pill-group">
+          <a class="pill" routerLink="/photos-component">Photos</a>
+          <a class="pill" routerLink="/buyPage-component">Achats</a>
+          <a class="pill" routerLink="/data-component">Tableau</a>
+        </div>
+      </div>
+
+      <div class="w-full md:w-auto">
+        <div class="grid-cards">
+          <a class="card" routerLink="/photos-component">
+            <div class="text-sm font-semibold text-slate-500 mb-1">Explorer</div>
+            <div class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-violet-400 to-rose-400">Galerie Photos</div>
+            <p class="mt-2 text-slate-600">Parcourez vos images favorites avec un rendu soigné et rapide.</p>
+          </a>
+          <a class="card" routerLink="/buyPage-component">
+            <div class="text-sm font-semibold text-slate-500 mb-1">Gérer</div>
+            <div class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-violet-400 to-indigo-400">Achats</div>
+            <p class="mt-2 text-slate-600">Suivez vos achats, comparez, et gardez tout sous contrôle.</p>
+          </a>
+          <a class="card" routerLink="/data-component">
+            <div class="text-sm font-semibold text-slate-500 mb-1">Analyser</div>
+            <div class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-400 via-indigo-400 to-rose-400">Tableau de données</div>
+            <p class="mt-2 text-slate-600">Visualisez vos données dans une interface claire et moderne.</p>
+          </a>
+        </div>
+      </div>
+    </header>
+  </section>
+</main>
